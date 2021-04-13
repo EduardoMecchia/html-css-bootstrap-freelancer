@@ -22,7 +22,7 @@
 /* Portfolio section rules */
 
 .ms-portfolio h1 {
-    height: 50px;
+    height: 70px;
 }
 .ms-portfolio .col {
     height: 250px;
@@ -30,10 +30,20 @@
 
 /* About section rules */
 
-.ms-about {
-    height: 600px;
+.ms-about h1 {
+    height: 70px;
+}
+.ms-about .col {
+    height: 200px;
 }
 
 /* Contact section rules */
+
+.ms-contact h1 {
+    height: 70px;
+}
+.ms-contact .col {
+    height: 400px;
+}
 
 /* Footer rules */
