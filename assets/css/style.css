@@ -42,7 +42,7 @@
 .ms-contact h1 {
     height: 70px;
 }
-.ms-contact [class*="col-"] {
+.ms-contact .col {
     height: 400px;
 }
 
