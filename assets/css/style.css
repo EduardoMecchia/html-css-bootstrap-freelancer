@@ -47,3 +47,10 @@
 }
 
 /* Footer rules */
+
+.ms-footer .col {
+    height: 150px;
+}
+.ms-footer .ms-copyright {
+    height: 50px;
+}
