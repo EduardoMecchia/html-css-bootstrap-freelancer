@@ -15,8 +15,9 @@
 .navbar {
     height: 90px;
 }
-.jumbotron {
-    height: 590px;
+
+.jumbotron [class*="col-"] {
+    height: 500px;
 }
 
 /* Portfolio section rules */
