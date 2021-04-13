@@ -12,11 +12,28 @@
 
 /* Header rules */
 
-header nav {
+.navbar {
     height: 90px;
 }
 .jumbotron {
     height: 590px;
 }
 
-/* Main sections rules */
+/* Portfolio section rules */
+
+.ms-portfolio h1 {
+    height: 50px;
+}
+.ms-portfolio .col {
+    height: 250px;
+}
+
+/* About section rules */
+
+.ms-about {
+    height: 600px;
+}
+
+/* Contact section rules */
+
+/* Footer rules */
