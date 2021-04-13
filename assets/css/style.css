@@ -24,7 +24,7 @@
 .ms-portfolio h1 {
     height: 70px;
 }
-.ms-portfolio .col {
+.ms-portfolio [class*="col-"] {
     height: 250px;
 }
 
@@ -33,7 +33,7 @@
 .ms-about h1 {
     height: 70px;
 }
-.ms-about .col {
+.ms-about [class*="col-"] {
     height: 200px;
 }
 
@@ -42,13 +42,13 @@
 .ms-contact h1 {
     height: 70px;
 }
-.ms-contact .col {
+.ms-contact [class*="col-"] {
     height: 400px;
 }
 
 /* Footer rules */
 
-.ms-footer .col {
+.ms-footer [class*="col-"] {
     height: 150px;
 }
 .ms-footer .ms-copyright {
