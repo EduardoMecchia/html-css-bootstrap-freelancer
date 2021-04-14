@@ -3,6 +3,9 @@
 .ms-text-black {
     color: #333333;
 }
+.ms-text-darkblue {
+    color: #2c3e50;
+}
 .ms-bg-blue {
     background-color: #3a546d;
 }
@@ -12,6 +15,18 @@
 .ms-bg-aqua {
     background-color: #1bbc9c;
 }
+.ms-rounded {
+    border-radius: 10px;
+}
+.ms-separator-line {
+    height: 5px;
+}
+.ms-star {
+    font-size: 2rem;
+}
+.ms-section-title {
+    font-size: 3.5rem;
+}
 
 /* Header rules */
 
@@ -19,18 +34,13 @@
     height: 90px;
 }
 
-.jumbotron [class*="col"] {
+.jumbo [class*="col"] {
     height: 500px;
 }
 
 /* Portfolio section rules */
 
-.ms-portfolio h1 {
-    height: 70px;
-}
-.ms-portfolio [class*="col-"] {
-    height: 250px;
-}
+
 
 /* About section rules */
 
