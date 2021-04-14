@@ -136,4 +136,14 @@ html {
     .ms-section-title {
         font-size: 1.5rem;
     }
+    .ms-small-heading,
+    .navbar .navbar-brand {
+        font-size: 1rem;
+    }
+    #ms-contact form input:not([type="submit"]),
+    #ms-contact form textarea,
+    #ms-footer .ms-footer-text,
+    #ms-about {
+        font-size: 0.7rem;
+    }
 }
