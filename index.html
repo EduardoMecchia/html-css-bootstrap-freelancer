@@ -11,7 +11,7 @@
     </head>
     <body>
         <!-- Website header -->
-        <header>
+        <header class="text-white">
             <nav class="navbar ms-bg-darkblue">
                 <div class="container">
                     <div class="row">
@@ -19,11 +19,21 @@
                 </div>
             </nav>
 
-            <div class="jumbo ms-bg-aqua">
+            <div class="jumbo d-flex flex-column py-5 ms-bg-aqua">
                 <div class="container">
-                    <div class="row">
-                        <div class="col bg-danger"></div>
+                    <div class="w-25 mx-auto">
+                        <img class="img-fluid" src="./assets/img/avatar.svg" alt="Image depicting a man smiling">
                     </div>
+
+                    <h1 class="ms-title text-center">START BOOTSTRAP</h1>
+    
+                    <div class="ms-separator d-flex justify-content-center align-items-center my-4 mx-auto">
+                        <span class="ms-separator-line w-25 rounded-pill mr-4 bg-white"></span>
+                        <i class="fas fa-star ms-star"></i>
+                        <span class="ms-separator-line w-25 rounded-pill ml-4 bg-white"></span>
+                    </div>
+
+                    <div class="ms-small-heading text-uppercase text-center">Graphic Artist - Web Designer - Illustrator </div>
                 </div>
             </div>
         </header>
@@ -33,7 +43,7 @@
         <main>
             <!-- First section (portfolio) -->
             <section class="ms-portfolio py-5">
-                <h1 class="ms-text-black ms-section-title mt-4 text-center">PORTFOLIO</h1>
+                <h2 class="ms-text-black ms-section-title mt-4 text-center">PORTFOLIO</h2>
 
                 <div class="ms-separator d-flex justify-content-center align-items-center my-4 mx-auto">
                     <span class="ms-separator-line w-25 rounded-pill mr-4 ms-bg-darkblue"></span>
@@ -73,7 +83,7 @@
 
             <!-- Second section (about) -->
             <section class="ms-about py-5 text-white ms-bg-aqua">
-                <h1 class="ms-section-title mt-4 text-center">ABOUT</h1>
+                <h2 class="ms-section-title mt-4 text-center">ABOUT</h2>
 
                 <div class="ms-separator d-flex justify-content-center align-items-center my-4 mx-auto">
                     <span class="ms-separator-line w-25 rounded-pill mr-4 bg-white"></span>
@@ -99,7 +109,7 @@
 
             <!-- Third section (contact) -->
             <section class="ms-contact py-5">
-                <h1 class="ms-text-black ms-section-title mt-4 text-center">CONTACT ME</h1>
+                <h2 class="ms-text-black ms-section-title mt-4 text-center">CONTACT ME</h2>
 
                 <div class="ms-separator d-flex justify-content-center align-items-center my-4 mx-auto">
                     <span class="ms-separator-line w-25 rounded-pill mr-4 ms-bg-darkblue"></span>
@@ -131,12 +141,12 @@
                 <div class="container">
                     <div class="row my-4">
                         <div class="col-md-4 d-flex flex-column align-items-center">
-                            <div class="ms-footer-heading">LOCATION</div>
+                            <div class="ms-small-heading">LOCATION</div>
                             <div class="ms-footer-text">2215 John Daniel Drive Clark, MO 54243</div>
                         </div>
                         
                         <div class="col-md-4 d-flex flex-column align-items-center">
-                            <div class="ms-footer-heading text-center">AROUND THE WEB</div>
+                            <div class="ms-small-heading text-center">AROUND THE WEB</div>
                             <div class="ms-social d-flex mt-2">
                                 <a href="#" class="text-decoration-none">
                                     <i class="fab fa-facebook-f d-flex text-white justify-content-center align-items-center mr-3 border rounded-circle"></i>
@@ -157,7 +167,7 @@
                         </div>
 
                         <div class="col-md-4 d-flex flex-column align-items-center">
-                            <div class="ms-footer-heading text-center">ABOUT FREELANCER</div>
+                            <div class="ms-small-heading text-center">ABOUT FREELANCER</div>
                             <div class="ms-footer-text">
                                 Freelancer is a free to use, open source Bootstrap theme created by
                                 <a class="ms-text-aqua" href="#">Start Bootstrap</a>

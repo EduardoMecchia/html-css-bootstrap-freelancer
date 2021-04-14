@@ -18,6 +18,7 @@
 .ms-bg-aqua {
     background-color: #1bbc9c;
 }
+
 .ms-rounded {
     border-radius: 10px;
 }
@@ -30,6 +31,10 @@
 .ms-section-title {
     font-size: 3.5rem;
 }
+.ms-small-heading {
+    font-size: 27px;
+}
+
 .ms-btn-aqua {
     color: white;
     background-color: #1bbc9c;
@@ -52,14 +57,16 @@
     color: #1bbc9c;
 }
 
-/* Header rules */
+/* Navbar rules */
 
 .navbar {
     height: 90px;
 }
 
-.jumbo [class*="col"] {
-    height: 500px;
+/* Jumbotron rules */
+
+.ms-title {
+    font-size: 4rem;
 }
 
 /* About section rules */
@@ -81,9 +88,6 @@
 
 /* Footer rules */
 
-.ms-footer .ms-footer-heading {
-    font-size: 27px;
-}
 .ms-footer .ms-footer-text {
     font-size: 20px;
 }
