@@ -1,5 +1,8 @@
 /* Global rules */
 
+.ms-text-black {
+    color: #333333;
+}
 .ms-bg-blue {
     background-color: #3a546d;
 }
