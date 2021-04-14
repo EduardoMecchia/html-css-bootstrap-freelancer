@@ -27,6 +27,16 @@
 .ms-section-title {
     font-size: 3.5rem;
 }
+.ms-btn-outline-aqua {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    transition: all 0.5s;
+}
+.ms-btn-outline-aqua:hover {
+    background-color: white;
+    color: #1bbc9c;
+}
 
 /* Header rules */
 
@@ -38,19 +48,11 @@
     height: 500px;
 }
 
-/* Portfolio section rules */
-
-
-
 /* About section rules */
 
-.ms-about h1 {
-    height: 70px;
+.ms-about {
+    font-size: 1.3rem;
 }
-.ms-about [class*="col-"] {
-    height: 200px;
-}
-
 /* Contact section rules */
 
 .ms-contact h1 {
