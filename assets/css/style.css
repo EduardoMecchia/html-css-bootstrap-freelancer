@@ -6,6 +6,9 @@
 .ms-text-darkblue {
     color: #2c3e50;
 }
+.ms-text-aqua {
+    color: #1bbc9c;
+}
 .ms-bg-blue {
     background-color: #3a546d;
 }
@@ -78,9 +81,13 @@
 
 /* Footer rules */
 
-.ms-footer [class*="col-"] {
-    height: 150px;
+.ms-footer .ms-footer-heading {
+    font-size: 27px;
 }
-.ms-footer .ms-copyright {
+.ms-footer .ms-footer-text {
+    font-size: 20px;
+}
+.ms-footer .ms-social i {
+    width: 50px;
     height: 50px;
 }
