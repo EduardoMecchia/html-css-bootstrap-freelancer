@@ -19,7 +19,7 @@
     height: 90px;
 }
 
-.jumbotron [class*="col-"] {
+.jumbotron [class*="col"] {
     height: 500px;
 }
 
