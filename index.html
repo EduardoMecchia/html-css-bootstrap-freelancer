@@ -11,15 +11,34 @@
     </head>
     <body>
         <!-- Website header -->
-        <header class="text-white">
-            <nav class="navbar ms-bg-darkblue">
-                <div class="container">
-                    <div class="row">
+        <header class="text-white text-uppercase">
+            <nav class="fixed-top font-weight-bold ms-bg-darkblue">
+                <div class="container navbar navbar-expand-md align-items-stretch py-0">
+                    <a href="#" class="navbar-brand text-white py-4">Start Bootstrap</a>
+                    
+                    <button class="d-md-none navbar-toggler text-white py-4" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+                        <i class="fas fa-bars navbar-toggler-icon  d-flex justify-content-center align-items-center rounded"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-end py-4" id="navbarNav">
+                        <ul class="navbar-nav flex-end">
+                          <li class="nav-item">
+                            <a class="nav-link text-white" href="#ms-portfolio">Portfolio</a>
+                          </li>
+
+                          <li class="nav-item">
+                            <a class="nav-link text-white" href="#ms-about">About</a>
+                          </li>
+
+                          <li class="nav-item">
+                            <a class="nav-link text-white" href="#ms-contact">Contact</a>
+                          </li>
+                        </ul>
                     </div>
                 </div>
             </nav>
 
-            <div class="jumbo d-flex flex-column py-5 ms-bg-aqua">
+            <div id="ms-jumbo" class="d-flex flex-column py-5 ms-bg-aqua">
                 <div class="container">
                     <div class="w-25 mx-auto">
                         <img class="img-fluid" src="./assets/img/avatar.svg" alt="Image depicting a man smiling">
@@ -42,7 +61,7 @@
         <!-- Website content -->
         <main>
             <!-- First section (portfolio) -->
-            <section class="ms-portfolio py-5">           
+            <section id="ms-portfolio" class="py-5">           
                 <div class="container">
                     <h2 class="ms-text-black ms-section-title mt-4 text-center text-uppercase">Portfolio</h2>
 
@@ -82,7 +101,7 @@
             <!-- /First section (portfolio) -->
 
             <!-- Second section (about) -->
-            <section class="ms-about py-5 text-white ms-bg-aqua">             
+            <section id="ms-about" class="py-5 text-white ms-bg-aqua">             
                 <div class="container">
                     <h2 class="ms-section-title mt-4 text-center text-uppercase">About</h2>
 
@@ -108,7 +127,7 @@
             <!-- /Second section (about) -->
 
             <!-- Third section (contact) -->
-            <section class="ms-contact py-5">         
+            <section id="ms-contact" class="py-5">         
                 <div class="container">
                     <h2 class="ms-text-black ms-section-title mt-4 text-center text-uppercase">Contact Me</h2>
 
@@ -117,7 +136,7 @@
                         <i class="fas fa-star ms-star ms-text-darkblue"></i>
                         <span class="ms-separator-line w-25 rounded-pill ml-4 ms-bg-darkblue"></span>
                     </div>
-                    
+
                     <div class="row my-5">
                         <div class="col">
                             <form action="" class="px-5">
@@ -136,7 +155,7 @@
         <!-- /Website content -->
 
         <!-- Website footer -->
-        <footer class="ms-footer text-white text-center">
+        <footer id="ms-footer" class="text-white text-center">
             <section class="ms-bg-blue py-4">
                 <div class="container">
                     <div class="row my-4">

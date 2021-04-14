@@ -59,44 +59,50 @@
 
 /* Navbar rules */
 
-.navbar {
-    height: 90px;
+.navbar .navbar-brand {
+    font-size: 27px;
+}
+.navbar .navbar-toggler-icon {
+    border: 1px solid white;
 }
 
 /* Jumbotron rules */
 
+#ms-jumbo {
+    margin-top: 88px;
+}
 .ms-title {
     font-size: 4rem;
 }
 
 /* About section rules */
 
-.ms-about {
+#ms-about {
     font-size: 1.3rem;
 }
 
 /* Contact section rules */
 
-.ms-contact form input:not( [type="submit"] ),
-.ms-contact form textarea {
+#ms-contact form input:not( [type="submit"] ),
+#ms-contact form textarea {
     font-size: 20px;
 }
-.ms-contact input::placeholder,
-.ms-contact textarea::placeholder {
+#ms-contact input::placeholder,
+#ms-contact textarea::placeholder {
     color: #2c3e50;
 }
 
 /* Footer rules */
 
-.ms-footer .ms-footer-text {
+#ms-footer .ms-footer-text {
     font-size: 20px;
 }
-.ms-footer .ms-social i {
+#ms-footer .ms-social i {
     transition: all 0.5s;
     width: 50px;
     height: 50px;
 }
-.ms-footer .ms-social i:hover {
+#ms-footer .ms-social i:hover {
     background-color: white;
     border: 1px solid #2c3e50;
     color: #2c3e50!important;
