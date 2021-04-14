@@ -1,5 +1,9 @@
 /* Global rules */
 
+html { 
+    font-size: 1rem; 
+}
+
 .ms-text-black {
     color: #333333;
 }
@@ -31,8 +35,15 @@
 .ms-section-title {
     font-size: 3.5rem;
 }
-.ms-small-heading {
-    font-size: 27px;
+.ms-small-heading,
+.navbar .navbar-brand {
+    font-size: 1.5rem;
+}
+#ms-contact form input:not([type="submit"]),
+#ms-contact form textarea,
+#ms-footer .ms-footer-text,
+#ms-about {
+    font-size: 1.3rem;
 }
 
 .ms-btn-aqua {
@@ -59,34 +70,24 @@
 
 /* Navbar rules */
 
-.navbar .navbar-brand {
-    font-size: 27px;
-}
 .navbar .navbar-toggler-icon {
     border: 1px solid white;
+}
+.navbar .nav-link {
+    font-size: 1.1rem;
 }
 
 /* Jumbotron rules */
 
 #ms-jumbo {
-    margin-top: 88px;
+    margin-top: 87px;
 }
 .ms-title {
     font-size: 4rem;
 }
 
-/* About section rules */
-
-#ms-about {
-    font-size: 1.3rem;
-}
-
 /* Contact section rules */
 
-#ms-contact form input:not( [type="submit"] ),
-#ms-contact form textarea {
-    font-size: 20px;
-}
 #ms-contact input::placeholder,
 #ms-contact textarea::placeholder {
     color: #2c3e50;
@@ -94,9 +95,6 @@
 
 /* Footer rules */
 
-#ms-footer .ms-footer-text {
-    font-size: 20px;
-}
 #ms-footer .ms-social i {
     transition: all 0.5s;
     width: 50px;
@@ -105,5 +103,37 @@
 #ms-footer .ms-social i:hover {
     background-color: white;
     border: 1px solid #2c3e50;
-    color: #2c3e50!important;
+    color: #2c3e50 !important;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 768px) {
+    .ms-title {
+        font-size: 2.3rem;
+    }
+    .ms-section-title {
+        font-size: 1.8rem;
+    }
+    #ms-jumbo {
+        margin-top: 80px;
+    }
+    .ms-small-heading,
+    .navbar .navbar-brand {
+        font-size: 1.2rem;
+    }
+    #ms-contact form input:not([type="submit"]),
+    #ms-contact form textarea,
+    #ms-footer .ms-footer-text,
+    #ms-about {
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width: 576px) {
+    .ms-title {
+        font-size: 2rem;
+    }
+    .ms-section-title {
+        font-size: 1.5rem;
+    }
 }
