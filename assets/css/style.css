@@ -70,9 +70,6 @@ html {
 
 /* Navbar rules */
 
-.navbar .navbar-toggler-icon {
-    border: 1px solid white;
-}
 .navbar .nav-link {
     font-size: 1.1rem;
 }
