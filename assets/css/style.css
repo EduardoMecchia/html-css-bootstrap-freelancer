@@ -27,6 +27,17 @@
 .ms-section-title {
     font-size: 3.5rem;
 }
+.ms-btn-aqua {
+    color: white;
+    background-color: #1bbc9c;
+    border: 1px solid white;
+    transition: all 0.5s;
+}
+.ms-btn-aqua:hover {
+    border: 1px solid #1bbc9c;
+    background-color: transparent;
+    color: #1bbc9c;
+}
 .ms-btn-outline-aqua {
     color: white;
     background-color: transparent;
@@ -53,13 +64,16 @@
 .ms-about {
     font-size: 1.3rem;
 }
+
 /* Contact section rules */
 
-.ms-contact h1 {
-    height: 70px;
+.ms-contact form input:not( [type="submit"] ),
+.ms-contact form textarea {
+    font-size: 20px;
 }
-.ms-contact .col {
-    height: 400px;
+.ms-contact input::placeholder,
+.ms-contact textarea::placeholder {
+    color: #2c3e50;
 }
 
 /* Footer rules */
