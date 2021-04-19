@@ -90,6 +90,8 @@ html {
 
 .overlay {
     top: 0;
+    opacity: 0;
+    transition: 0.5s;
 }
 .overlay i {
     font-size: 3rem;
@@ -99,6 +101,8 @@ html {
 }
 #ms-portfolio [class*="col"]:hover .overlay {
     display: block!important;
+    opacity: 1;
+    cursor: pointer;
 }
 
 /* Contact section rules */
